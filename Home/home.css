@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 
 
@@ -70,6 +71,10 @@ body{
 
 
 
+ 
+ 
+ 
+ 
   /* LandingPage Div */
   .topContainer{
     width: 100%;
@@ -176,4 +181,71 @@ body{
  }
  #price{
     color: #2ab1c3;
+ }
+
+
+
+
+
+
+
+ 
+ /* HOW IT WORKS DIV */
+ .workingDiv{
+     height: 80vh;
+     width: 100%;
+ }
+
+
+
+
+
+
+
+ /* NEVER LOSE DOG DIV */
+ .neverLoseDogDiv{
+     width: 100%;
+     height: 75vh;
+     background-color: rgba(48, 167, 191, 0.85);
+     display: grid;
+     grid-template-columns: 60% 40%;
+     grid-template-rows: auto;
+     padding: 1em;
+ }
+
+ .locationScreenDiv{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+#location-screen{
+     margin-top: 3em;
+     
+ }
+
+ 
+ .neverLoseDetails{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+   
+ }
+ .neverLoseDetails > div{
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto;
+    margin-top: 2em;
+    /* background-color: yellow; */
+ }
+ .neverLoseBtn{
+     color: white;
+     border: solid white 2px;
+ }
+
+ .gpsDetails{
+     font-size: 25px;
+     text-align: center;
+     margin: 4px;
+     padding: 1em;
+     color: white
  }
