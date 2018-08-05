@@ -289,3 +289,39 @@ body{
      padding: 1em;
      color: white
  }
+
+
+
+
+
+
+
+ /* KEEP DOG FIT DIV */
+ .dogFitDiv{
+     height: 90vh;
+     width: 100%;
+     display: grid;
+     grid-template-rows: auto;
+     grid-template-columns: 40% 60%;
+     margin-top: 7em;
+     padding: 2em;
+ }
+
+.dogFitImage{
+    /* background-color: tomato; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dogFitDetails{
+    /* background-color: teal; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.dogFitDetails > div{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    grid-template-columns: auto;
+}
