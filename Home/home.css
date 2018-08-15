@@ -12,7 +12,7 @@ body {
 
 /* NAVBAR */
 .navbar {
-  width: 100%;
+  width: 100vw;
   height: 80px;
   background-color: #ffffff;
   background-color: var(--white);
@@ -80,7 +80,7 @@ body {
 
 /* LandingPage Div */
 .topContainer {
-  width: 100%;
+  width: 100vw;
   height: 85vh;
   background-color: rgba(0, 0, 0, 0.05);
   display: grid;
@@ -193,7 +193,7 @@ body {
 /* HOW IT WORKS DIV */
 .workingDiv {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-rows: 40% 20% 40%;
   grid-template-columns: auto;
@@ -243,7 +243,7 @@ body {
 
 /* NEVER LOSE DOG DIV */
 .neverLoseDogDiv {
-  width: 100%;
+  width: 100vw;
   height: 75vh;
   background-color: rgba(48, 167, 191, 0.85);
   display: grid;
@@ -299,7 +299,7 @@ body {
 /* KEEP DOG FIT DIV */
 .dogFitDiv {
   height: 90vh;
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 40% 60%;
@@ -363,12 +363,14 @@ body {
 
 
 
+
+
 /* FORM YOUR PACK */
 .formYourPack{
   background: url('../assets/home/pack-image.jpg');
   background-size: cover;
   position: relative;
-  width: 100%;
+  width: 100vw;
   display: grid;
   grid-template-rows: auto;
   grid-template-columns: 40% 60%;
@@ -378,4 +380,130 @@ body {
 .formPack{
   background-color: rgba(55, 169, 179, 0.47);
 
+}
+
+
+
+
+
+
+
+
+/* QUALCOMM SUPPORT */
+.QualcommSupport{
+  /* background-color: teal; */
+  margin: 5em 0;
+  margin-top: 9em;
+  height: auto;
+  width: 100vw;
+  position: relative;
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.iconDetails{
+
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: 1fr 1fr;
+}
+
+.iconDetails > div{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+}
+
+.qualcomm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-right: 1em;
+}
+
+
+
+
+
+
+
+/* WAGR IN THE NEWS */
+.wagrNews{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  background-color: crimson;
+}
+
+
+
+
+
+
+/* WAGR REVIEW */
+.wagrReview{
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  background-color: darkcyan;
+}
+
+
+
+
+
+
+
+/* WAGR VIDEO */
+.wagrVideo{
+  position: relative;
+  height: 90vh;
+  width: 100vw;
+  background: url('../assets/home/customer.jpg');
+  background-size: cover;
+}
+
+
+
+
+
+
+/* WAGR AVAILABLE NOW */
+.wagrAvailable{
+  height: 85vh;
+  width: 100vw;
+  padding: 2em;
+  display: grid;
+  grid-template-columns: 0.8fr 1fr 1fr;
+}
+
+.dayBack{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.availablePic{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.availableNow{
+  /* background-color: beige; */
+  padding: 1em;
+  padding-top: 3em;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
