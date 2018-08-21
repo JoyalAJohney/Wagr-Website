@@ -1,0 +1,35 @@
+/* SETUP YOUR WAGR */
+.setupWagr{
+    width: 100vw;
+    height: 85vh;
+    /* background-color: crimson; */
+}
+
+
+
+
+/* WAGR TECH SPECS */
+.wagrTech{
+    width: 100vw;
+    height: 150vh;
+    padding: 2em;
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr;
+}
+
+.wagrDimensions{
+    height: 90%;
+    width: 75%;
+    background-color: rgba(42, 177, 195, 0.09);
+}
+
+
+
+
+/* WAGR BAND */
+.wagrBand{
+    width: 100vw;
+    height: 20vh;
+    background-color: #2ab1c3;
+    text-align: center;
+}
