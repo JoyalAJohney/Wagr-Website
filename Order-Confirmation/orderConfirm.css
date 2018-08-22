@@ -1,0 +1,32 @@
+
+
+
+/* WAGR CONFIRMED */
+.wagrConfirmed{
+    width: 100vw;
+    height: 50vh;
+    background-color: crimson;
+
+}
+
+
+
+
+/* CONFIRMATION DETAILS */
+.confirmationDetails{
+    width: 100vw;
+    height: 110vh;
+    background-color: teal;
+}
+
+
+
+/* REFER FRIEND BAND */
+.referFriend{
+    width: 100vw;
+    height: 35vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding-top: 4em;
+    margin-bottom: 3em;
+}
