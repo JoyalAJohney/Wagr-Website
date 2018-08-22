@@ -1,9 +1,18 @@
+
+
+
 /* SETUP YOUR WAGR */
 .setupWagr{
     width: 100vw;
-    height: 85vh;
-    /* background-color: crimson; */
+    height: 90vh;
+    display: grid;
+    grid-template-rows: 1fr 1fr 5fr 1.5fr;
+    padding-top: 3em;
+    padding-bottom: 2em;
 }
+
+
+
 
 
 
@@ -18,9 +27,12 @@
 }
 
 .wagrDimensions{
-    height: 90%;
-    width: 75%;
+    height: 85%;
+    width: 70%;
+    padding: 1em;
     background-color: rgba(42, 177, 195, 0.09);
+    display: grid;
+    grid-template-columns: 1fr 3fr;
 }
 
 
@@ -32,4 +44,22 @@
     height: 20vh;
     background-color: #2ab1c3;
     text-align: center;
+}
+
+.dimens-left > div{
+    padding-left: 1em;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #474949;
+}
+
+.dimens-right > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    color: #474949;
 }
