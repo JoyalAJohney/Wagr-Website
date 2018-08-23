@@ -45,8 +45,27 @@
 
 .wagrItemTwo{
     display: grid;
-    grid-template-rows: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1.5fr;
+}
 
+.wagrdetailBox{
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+.wagrDetail{
+    display: flex;
+    padding-right: 20em;
+}
+
+.wagrDetail > div{
+    display: flex;
+    flex-basis: 50%;
+    cursor: pointer;
+}
+
+.featureBox > span{
+    margin: 4px;
 }
 
 
