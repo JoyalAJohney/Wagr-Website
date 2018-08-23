@@ -14,8 +14,9 @@
 /* WAGR ITEM DIV */
 .wagrItemDiv{
     width: 100vw;
-    height: 80vh;
+    height: 82vh;
     /* background-color: crimson; */
+    padding-bottom: 2em;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -46,6 +47,7 @@
 .wagrItemTwo{
     display: grid;
     grid-template-rows: 1fr 2fr 1.5fr;
+    padding-top: 1em;
 }
 
 .wagrdetailBox{
@@ -67,6 +69,27 @@
 .featureBox > span{
     margin: 4px;
 }
+
+.addCartDiv{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.quantityBox{
+    height: 2.2em;
+    width: 4em;
+    border-radius: 10px;
+    margin-left: 1em;
+    /* background-color: tomato; */
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    border: 1.5px solid #2ab1c3;
+}
+
+
+
+
 
 
 
