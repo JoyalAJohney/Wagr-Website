@@ -96,10 +96,45 @@
 
 /* WAGR FEATURES */
 .wagrFeatures{
-    height: 90vh;
-    width: 110vw;
-    background-color: teal;
+    height: 84vh;
+    width: 100vw;
+    background-color: rgba(42, 177, 195, 0.09);
+    margin: 1.5em 0;
+    padding-bottom: 2em;
+    display: grid;
+    grid-template-rows: 0.5fr 2fr 2fr 1fr;
 }
+
+.wagrFeatureHead > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2ab1c3;
+    color: white;
+    cursor: pointer;
+}
+
+.detailDiv{
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.detailBottom{
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1.1fr;
+}
+
+.detailBottom > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+}
+
 
 
 
