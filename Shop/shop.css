@@ -1,0 +1,82 @@
+
+
+
+
+/* SHOPNAV */
+.shopNav{
+    display: flex;
+    align-items: center;
+}
+
+
+
+
+/* WAGR ITEM DIV */
+.wagrItemDiv{
+    width: 100vw;
+    height: 80vh;
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.wagrItemOne{
+    display: flex;
+    flex-direction: column;
+    padding: 2em;
+    padding-top: 6em
+}
+
+.wagrPicBox{
+    height: 3.5em;
+    width: 3.5em;
+    border-radius: 7px;
+    border: 1px solid #474949;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 1em;
+    cursor: pointer;
+}
+.wagrPicBox > img{
+    width: 3em;
+}
+
+
+
+
+/* WAGR FEATURES */
+.wagrFeatures{
+    height: 90vh;
+    width: 110vw;
+    background-color: teal;
+}
+
+
+
+
+
+/* WAGR QUESTIONS */
+.wagrQuestions{
+    height: 43vh;
+    width: 100vw;
+    display: flex;
+    padding-left: 6em;
+}
+
+.wagrQuestMiddle{
+    padding: 0 3em;
+    height: 45%;
+    margin-left: 9em;
+    align-self: center;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+#EmailUs{
+    border-color: #2ab1c3;
+    color: #2ab1c3;
+}
+#EmailUs:hover{
+    color: white;
+}

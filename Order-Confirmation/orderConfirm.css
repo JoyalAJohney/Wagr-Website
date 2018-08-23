@@ -4,9 +4,12 @@
 /* WAGR CONFIRMED */
 .wagrConfirmed{
     width: 100vw;
-    height: 50vh;
-    background-color: crimson;
-
+    height: 40vh;
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-rows: 0.5fr 1fr 0.5fr;
+    padding-top: 1em;
+    margin-top: 1em;
 }
 
 
@@ -15,8 +18,8 @@
 /* CONFIRMATION DETAILS */
 .confirmationDetails{
     width: 100vw;
-    height: 110vh;
-    background-color: teal;
+    height: 100vh;
+    background-color: rgba(42, 177, 195, 0.09);
 }
 
 
