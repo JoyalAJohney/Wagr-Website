@@ -1,0 +1,49 @@
+
+
+
+/* TOP IMAGE DIV */
+.topImageDiv{
+    height: 25vh;
+    width: 100vw;
+    /* background-color: crimson; */
+}
+
+
+
+/* CAREEERS CONTENT */
+.careerContent{
+    height: 60vh;
+    width: 100vw;
+    /* background-color: #474949; */
+    display: grid;
+    grid-template-rows: 1fr 2fr 3fr;
+    padding-top: 7em;
+}
+
+
+/* CAREER DETAIL */
+.careerDetail{
+    display: flex;
+    flex-direction: column;
+    margin: 0 3em;
+}
+
+.careerDetail > div{
+    color: #474949;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.careerSpecific{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    font-size: 17px;
+}
+
+.careerSpecific > span{
+    margin: 3px 0;
+}
