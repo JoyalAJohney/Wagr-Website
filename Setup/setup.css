@@ -1,0 +1,46 @@
+
+
+
+/* SETUP MOBILE DIV */
+.setupMobileDiv{
+    height: 90vh;
+    width: 100vw;
+    /* background-color: crimson; */
+    display: grid;
+    grid-template-rows: 1fr 5fr 1fr;
+    color: #474949;
+    margin-top: 3em;
+}
+
+.setupMobileDiv > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+/* Phone Image */
+.PhoneImage{
+    padding-top: 3em;
+}
+
+.PhoneImage > div{
+    display: flex;
+    flex-direction: column;
+    margin: 0 2em;
+    /* background-color: yellow; */
+    align-items: center;
+}
+
+
+
+
+/* WAGR UNBOX */
+.wagrUnbox{
+    margin-top: 5em;
+    background: url('../assets/Setup/bitmap.png');
+    height: 80vh;
+    background-size: cover;
+}
