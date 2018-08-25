@@ -1,0 +1,30 @@
+
+
+
+/* REFER FRIEND */
+.referFriend{
+    max-width: 900px;
+    margin: 0 auto;
+    height: 90vh;
+    /* background-color: crimson; */
+    display: flex;
+    flex-direction: column;
+    color: #474949;
+    text-align: center;
+    padding-top: 2em;
+    font-size: 23px;
+    margin-bottom: 2em;
+}
+
+
+/* REFER BOX */
+.ReferBox{
+    width: 30vw;
+    height: auto;
+    font-size: 19px;
+    background-color: #dedede;
+    border-radius: 13.4px;
+    border: solid 0.9px #dedede;
+    padding: 1em;
+    margin: 1em auto;
+}
