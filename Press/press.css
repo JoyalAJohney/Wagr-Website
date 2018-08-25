@@ -1,0 +1,15 @@
+
+
+
+/* PRESS DETAIL */
+.pressDetail{
+    width: 100vw;
+    height: 70vh;
+    /* background-color: crimson; */
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #474949;
+}
