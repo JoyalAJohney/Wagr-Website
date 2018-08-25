@@ -1,0 +1,14 @@
+
+
+.detail404{
+    width: 100vw;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    color: #474949;
+    padding-left: 1vw;
+    padding-top: 1em;
+}
