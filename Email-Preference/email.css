@@ -1,0 +1,51 @@
+
+/* Email Preferences */
+.emailPreference{
+    max-width: 900px;
+    height: auto;
+    padding: 2em 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    color: #474949;
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+.wagrCheckBox{
+    width: 100%;
+    height: 50vh;
+    /* background-color: crimson; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em 0;
+}
+
+.wagrCheckBox > form{
+    /* background-color: yellow; */
+    height: 100%;
+    width: 50%;
+    display: grid;
+    grid-template-rows: repeat(1fr,6)
+}
+
+.wagrCheckBox > form > div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input{
+    margin-left: 5em;
+    height: 1.7em;
+    width: 1.7em;
+    border-radius: 40%;
+    background: none;
+    border: 1px solid #474949;
+}
+
+.emailId{
+    padding: 1em 0;
+}
