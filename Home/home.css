@@ -3,14 +3,9 @@ body {
   padding: 0;
   overflow-x: hidden;
 }
-a{
+a {
   color: white;
 }
-
-
-
-
-
 
 /* NAVBAR */
 .navbar {
@@ -58,6 +53,7 @@ a{
   text-decoration: none;
   margin: 2em;
   cursor: pointer;
+  outline: none;
 }
 
 .button:hover {
@@ -71,14 +67,6 @@ a{
   color: white;
   border-color: #3cb0fd;
 }
-
-
-
-
-
-
-
-
 
 /* LandingPage Div */
 .topContainer {
@@ -182,16 +170,6 @@ a{
   color: #2ab1c3;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* HOW IT WORKS DIV */
 .workingDiv {
   height: 90vh;
@@ -233,15 +211,6 @@ a{
   color: #474949;
   font-size: 20px;
 }
-
-
-
-
-
-
-
-
-
 
 /* NEVER LOSE DOG DIV */
 .neverLoseDogDiv {
@@ -288,16 +257,6 @@ a{
   color: white;
 }
 
-
-
-
-
-
-
-
-
-
-
 /* KEEP DOG FIT DIV */
 .dogFitDiv {
   height: 90vh;
@@ -336,21 +295,14 @@ a{
   padding-bottom: 0;
 }
 
-
-
-
-
-
-
-
 /* TRACK DOG'S WALK */
-.trackDogWalk{
-  background: url('../assets/home/dog-walk-3.jpg');
+.trackDogWalk {
+  background: url("../assets/home/dog-walk-3.jpg");
   background-size: cover;
   position: relative;
 }
 
-.transparentDiv{
+.transparentDiv {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -359,16 +311,9 @@ a{
   z-index: 0;
 }
 
-
-
-
-
-
-
-
 /* FORM YOUR PACK */
-.formYourPack{
-  background: url('../assets/home/pack-image.jpg');
+.formYourPack {
+  background: url("../assets/home/pack-image.jpg");
   background-size: cover;
   position: relative;
   width: 100vw;
@@ -378,20 +323,12 @@ a{
   padding: 2em;
 }
 
-.formPack{
+.formPack {
   background-color: rgba(55, 169, 179, 0.47);
-
 }
 
-
-
-
-
-
-
-
 /* QUALCOMM SUPPORT */
-.QualcommSupport{
+.QualcommSupport {
   /* background-color: teal; */
   margin: 4em 0;
   height: auto;
@@ -402,34 +339,27 @@ a{
   grid-template-columns: 1fr 1fr 1fr;
 }
 
-.iconDetails{
-
+.iconDetails {
   display: grid;
   grid-template-columns: auto;
   grid-template-rows: 1fr 1fr;
 }
 
-.iconDetails > div{
+.iconDetails > div {
   display: flex;
   flex-direction: column;
   padding: 2em;
 }
 
-.qualcomm{
+.qualcomm {
   display: flex;
   justify-content: center;
   align-items: center;
   padding-right: 1em;
 }
 
-
-
-
-
-
-
 /* WAGR IN THE NEWS */
-.wagrNews{
+.wagrNews {
   height: 70vh;
   width: 100vw;
   display: flex;
@@ -440,13 +370,8 @@ a{
   background-color: crimson;
 }
 
-
-
-
-
-
 /* WAGR REVIEW */
-.wagrReview{
+.wagrReview {
   height: 70vh;
   width: 100vw;
   display: flex;
@@ -457,28 +382,17 @@ a{
   background-color: darkcyan;
 }
 
-
-
-
-
-
-
 /* WAGR VIDEO */
-.wagrVideo{
+.wagrVideo {
   position: relative;
   height: 90vh;
   width: 100vw;
-  background: url('../assets/home/customer.jpg');
+  background: url("../assets/home/customer.jpg");
   background-size: cover;
 }
 
-
-
-
-
-
 /* WAGR AVAILABLE NOW */
-.wagrAvailable{
+.wagrAvailable {
   height: 80vh;
   width: 100vw;
   margin-top: 1em;
@@ -487,19 +401,19 @@ a{
   grid-template-columns: 0.8fr 1fr 1fr;
 }
 
-.dayBack{
+.dayBack {
   display: flex;
   justify-content: flex-start;
   align-items: center;
 }
 
-.availablePic{
+.availablePic {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.availableNow{
+.availableNow {
   /* background-color: beige; */
   padding: 1em;
   padding-top: 3em;
@@ -509,22 +423,16 @@ a{
   align-items: center;
 }
 
-
-
-
-
-
-
 /* FOOTER */
-footer{
+footer {
   position: relative;
   width: 100vw;
   height: 80vh;
-  background: url('../assets/home/footer-1.jpg');
+  background: url("../assets/home/footer-1.jpg");
   background-size: cover;
 }
 
-.footerDiv{
+.footerDiv {
   position: absolute;
   height: 90%;
   width: 100%;
@@ -533,7 +441,7 @@ footer{
   grid-template-rows: 1fr 1fr 2fr 0.7fr 0.2fr;
 }
 
-.newsLetter{
+.newsLetter {
   grid-row: 1/2;
   grid-column: 1/2;
   text-align: center;
@@ -544,13 +452,13 @@ footer{
   color: white;
 }
 
-.Email{
+.Email {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.Email > input{
+.Email > input {
   padding: 10px;
   border-radius: 1.2em;
   height: 1.5em;
@@ -559,16 +467,16 @@ footer{
   outline: none;
 }
 
-.linksBlock{
+.linksBlock {
   /* background-color: crimson; */
   display: grid;
   grid-template-columns: 1.5fr 0.8fr 1fr 1.8fr;
   grid-template-rows: auto;
 }
 
-.linksBlock > div{
+.linksBlock > div {
   display: grid;
-  grid-template-rows: 1fr repeat(0.4fr,4);
+  grid-template-rows: 1fr repeat(0.4fr, 4);
   color: white;
   padding: 10px;
 }
@@ -576,20 +484,21 @@ footer{
 .linksBlock > div > a {
   font-size: 15px;
   cursor: pointer;
+  color: white;
 }
 
-.COMPANY{
+.COMPANY {
   justify-content: flex-end;
 }
 
-.INFO{
+.INFO {
   justify-content: flex-end;
 }
 
-.LINKS{
+.LINKS {
   justify-content: center;
 }
 
-.BLOG{
+.BLOG {
   justify-content: flex-start;
 }

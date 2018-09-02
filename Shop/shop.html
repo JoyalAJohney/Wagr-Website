@@ -5,12 +5,99 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="./shop.css">
     <link rel="stylesheet" href="../Home/home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./shop.css">
     <title>Shop</title>
 </head>
 
 <body>
+
+
+
+
+
+
+
+    <!-- SIDEBAR Checkout -->
+    <div id="slide-out" class="sidenav" id="sidebar">
+
+        <div id="sidebar">
+            <div style="text-align: center">
+                <span style="font-size: 21px;color: #474949">
+                    Your Cart(1)
+                </span>
+                <span style="position: absolute;right: 10px;top: 1em">
+                    <a class="sidenav-close">
+                        <img style="width: 1.7em;cursor: pointer;" src="../assets/checkout/close-icon.png">
+                    </a>
+                </span>
+            </div>
+
+            <div class="wagrBox">
+
+                <div style="flex-basis: 50%;display: flex;justify-content:center">
+                    <div class="wagrPicBox" style="width: 6em;height: 6em;margin-top: 0">
+                        <img style="width: 5em" src="../assets/Shop/device-side-view-front.png" />
+                    </div>
+                </div>
+
+                <div style="flex-basis: 50%">
+                    <span>Wagr Tracker (Blue)</span>
+                    <div style="margin-top: 7px">
+                        <strike style="margin-right: 5px">₹6999</strike>
+                        <span id="price">₹4999</span>
+                    </div>
+
+                    <div class="quantityBox" style="margin-top: 10px;width: 5em;margin-left: 0">
+                        <span style="flex-basis: 33%;color: #474949;cursor: pointer;">-</span>
+                        <span style="flex-basis: 33%">1</span>
+                        <span style="flex-basis: 33%;color: #474949;cursor: pointer;">+</span>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="wagrOffer">
+                Have a discount code?
+                <input id="EmailInput" type="text" placeholder="PETDAY" style="width: 10em;height: 1em;margin-top: 7px" />
+            </div>
+
+
+            <div class="wagrCheckout">
+                <div>
+                    <div>
+                        <span>Subtotal</span>
+                        <span style="justify-content: flex-end">₹ 9998.0</span>
+                    </div>
+                    <div>
+                        <span>Shipping</span>
+                        <span style="justify-content: flex-end">Free</span>
+                    </div>
+                    <div>
+                        <span>Discount</span>
+                        <span style="justify-content: flex-end">₹ 200.0</span>
+                    </div>
+                    <div class="divider"></div>
+                    <div>
+                        <span>
+                            <strong>Total</strong>
+                        </span>
+                        <span style="justify-content: flex-end">
+                            <strong>₹ 9798.0</strong>
+                        </span>
+                    </div>
+                    <button id="Checkout" class="button containerBtn Checkout" style="margin-top: 1.5em">
+                        Checkout
+                    </button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
 
 
 
@@ -125,7 +212,11 @@
                     </div>
 
                     <div>
-                        <button class="button containerBtn buyNow" style="margin-left: 3em">Add To Cart</button>
+                        <button class="button containerBtn buyNow" style="margin-left: 3em;width: 13vw">
+                            <a href="#" data-target="slide-out" class="sidenav-trigger" id="addCart">
+                                Add To Cart
+                            </a>
+                        </button>
                     </div>
                 </div>
 
@@ -275,8 +366,8 @@
                 Subscribe To Our Newsletter
             </div>
 
-            <div class="Email">
-                <input type="text" placeholder="E-mail" />
+            <div id="Email">
+                <input id="EmailInput" type="text" placeholder="E-mail" />
             </div>
 
             <div class="linksBlock">
@@ -325,6 +416,8 @@
 
 
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+    <script src="./shop.js"></script>
 </body>
 
 </html>
