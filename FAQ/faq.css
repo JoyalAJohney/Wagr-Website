@@ -1,0 +1,58 @@
+
+a{
+    color: white;
+}
+#Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EmailInput{
+    padding: 10px;
+  border-radius: 1.2em;
+  height: 1.5em;
+  width: 25vw;
+  text-indent: 1em;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 1px solid #888;
+}
+
+
+
+
+
+
+/* FAQ DIV */
+.faqDiv{
+    width: 100vw;
+    height: 150vh;
+    padding: 1em 0;
+    color: #474949;
+    font-size: 31px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: crimson; */
+}
+
+
+.border{
+    /* background-color: yellow; */
+    margin-top: 2px;
+    width: 10vw;
+    height: 2em;
+    border-top: 3px solid #2ab1c3;
+    /* background-color: teal; */
+}
+
+.collapseDiv{
+    width: 1100px;
+    height: 80vh;
+    /* background-color: yellow; */
+    font-size: 15px;
+    text-align: start;
+}
