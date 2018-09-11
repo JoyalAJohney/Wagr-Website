@@ -154,13 +154,17 @@ a{
     height: 43vh;
     width: 100vw;
     display: flex;
-    padding-left: 6em;
+    justify-content: center;
+    position: relative;
+    padding-right: 13vw;
 }
 
+
 .wagrQuestMiddle{
+    margin: 0 4em;
+    /* background-color: teal; */
     padding: 0 3em;
     height: 45%;
-    margin-left: 9em;
     align-self: center;
     display: grid;
     grid-template-rows: 1fr 1fr;

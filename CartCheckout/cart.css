@@ -96,7 +96,8 @@
     display: flex;
     flex-direction: column;
     /* background-color: yellow; */
-    padding: 2em;
+    padding: 2em 0;
+    width: 19vw;
     padding-top: 10px;
 }
 
@@ -104,6 +105,7 @@
     display: flex;
     justify-content: space-evenly;
     color: #474949;
+    margin: 1px 0;
 }
 
 .wagrCheckout > div > div > span{
@@ -125,4 +127,9 @@
 
 .wagrOffer{
     font-size: 21px;
+}
+
+#Next{
+    background-color: #2ab1c3;
+    color: white;
 }
