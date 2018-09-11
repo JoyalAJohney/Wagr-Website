@@ -68,10 +68,24 @@ a {
   border-color: #3cb0fd;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* LandingPage Div */
 .topContainer {
   width: 100vw;
-  height: 85vh;
+  height: 80vh;
   background-color: rgba(0, 0, 0, 0.05);
   display: grid;
   grid-template-rows: 90% 10%;
@@ -170,14 +184,28 @@ a {
   color: #2ab1c3;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* HOW IT WORKS DIV */
 .workingDiv {
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: 40% 20% 40%;
+  grid-template-rows: 50% 10% 40%;
   grid-template-columns: auto;
-  padding: 1em;
+  padding:1em;
+  padding-bottom: 2em;
+  margin-bottom: 2em;
 }
 
 .wagrBand {
@@ -192,7 +220,7 @@ a {
   align-items: center;
   text-align: center;
   color: #474949;
-  font-size: 20px;
+  font-size: 24px;
 }
 
 .wagrBandAnimations {
@@ -202,25 +230,46 @@ a {
   margin-top: 3em;
   /* background-color: teal; */
 }
+
 .wagrBandAnimations > div {
   display: grid;
   grid-template-rows: auto auto;
   justify-content: center;
+  text-align: center;
 }
+
 .wagrBandAnimations > div > div {
   color: #474949;
   font-size: 20px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* NEVER LOSE DOG DIV */
 .neverLoseDogDiv {
+  position: relative;
   width: 100vw;
   height: 75vh;
-  background-color: rgba(48, 167, 191, 0.85);
+  background: url('../assets/home/lost-dog.png');
+  background-size: cover;
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: auto;
   padding: 1em;
+}
+
+.loosedogBg{
+  background-color: rgba(48, 167, 191, 0.85);
 }
 
 .locationScreenDiv {
@@ -228,8 +277,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 #location-screen {
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .neverLoseDetails {
@@ -242,6 +292,7 @@ a {
   grid-template-rows: auto auto auto auto;
   grid-template-columns: auto;
   margin-top: 2em;
+  margin-right: 3em;
   /* background-color: yellow; */
 }
 .neverLoseBtn {
@@ -257,9 +308,20 @@ a {
   color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* KEEP DOG FIT DIV */
 .dogFitDiv {
-  height: 90vh;
+  height: 75vh;
   width: 100vw;
   display: grid;
   grid-template-rows: auto;
@@ -291,9 +353,15 @@ a {
 .dogfitDetailsDiv {
   /* background-color: tomato; */
   font-size: 20px;
-  padding: 2em;
+  padding: 2em 4em;
   padding-bottom: 0;
 }
+
+
+
+
+
+
 
 /* TRACK DOG'S WALK */
 .trackDogWalk {
@@ -311,6 +379,12 @@ a {
   z-index: 0;
 }
 
+
+
+
+
+
+
 /* FORM YOUR PACK */
 .formYourPack {
   background: url("../assets/home/pack-image.jpg");
@@ -327,10 +401,15 @@ a {
   background-color: rgba(55, 169, 179, 0.47);
 }
 
+
+
+
+
 /* QUALCOMM SUPPORT */
 .QualcommSupport {
   /* background-color: teal; */
   margin: 4em 0;
+  margin-top: 5em;
   height: auto;
   width: 100vw;
   position: relative;
