@@ -437,17 +437,78 @@ a {
   padding-right: 1em;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* WAGR IN THE NEWS */
 .wagrNews {
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
+  color: white;
+  font-size: 40px;
+  /* background-color: crimson; */
+  border-top: 3px solid #2ab1c3;
+  border-bottom: 3px solid #2ab1c3;
+
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+.wagrIntheNews{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wagrIntheNews > div{
+  background-color: #2ab1c3;
+  padding: 12px;
+  font-size: 33px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.reviewBox{
+  /* background-color: crimson; */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 40px;
-  background-color: crimson;
+  font-size: 32px;
+  padding: 0 4em;
+  color: #474949;
 }
+
+.newsPapers{
+  display: flex;
+  flex-wrap: none;
+  justify-content: space-between;
+  padding-right: 13px;
+}
+
+.newsPapers > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  position: relative;
+}
+
+.newsPapers > div > img{
+  z-index: 1;
+}
+
+
+
+
+
+
 
 /* WAGR REVIEW */
 .wagrReview {
@@ -458,8 +519,18 @@ a {
   align-items: center;
   color: white;
   font-size: 40px;
-  background-color: darkcyan;
+  /* background-color: darkcyan; */
 }
+
+
+
+
+
+
+
+
+
+
 
 /* WAGR VIDEO */
 .wagrVideo {
@@ -469,6 +540,12 @@ a {
   background: url("../assets/home/customer.jpg");
   background-size: cover;
 }
+
+
+
+
+
+
 
 /* WAGR AVAILABLE NOW */
 .wagrAvailable {
