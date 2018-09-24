@@ -299,7 +299,7 @@ a {
 .neverLoseDogDiv {
   position: relative;
   width: 100vw;
-  height: 75vh;
+  height: 85vh;
   background: url('../assets/home/lost-dog.png');
   background-size: cover;
   display: grid;
@@ -316,6 +316,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-top: 2em;
 }
 
 #location-screen {
@@ -331,9 +332,10 @@ a {
   display: grid;
   grid-template-rows: auto auto auto auto;
   grid-template-columns: auto;
-  margin-top: 2em;
+  margin-top: 5em;
   margin-right: 3em;
   /* background-color: yellow; */
+  /* font-size: 34px; */
 }
 .neverLoseBtn {
   color: white;
@@ -809,9 +811,9 @@ footer {
 
   /* HOW IT WORKS DIV */
   .workingDiv{
-    padding: 2em 0;
+    padding: 3em 0;
     grid-template-rows: 40% 20% 40%;
-    height: 60vh;
+    height: 65vh;
   }
 
   .wagrBand > img{
@@ -829,6 +831,39 @@ footer {
   .wagrBandAnimations > div > div{
     font-size: 20px;
     text-align: center;
+  }
+
+
+
+  
+  /* NEVER LOSE DOG DIV */
+  .neverLoseDogDiv{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 100vh;
+  }
+
+  .neverLoseDetails {
+    align-items: center;
+  }
+  .neverLoseDetails > div{
+    margin: 0;
+    margin-top: 5em;
+  }
+
+  .gpsDetails{
+    font-size: 18px;
+  }
+
+  .locationScreenDiv{
+    align-items: flex-end;
+  }
+
+  #location-screen{
+    width: 50vw;
+    margin-top: 0;
   }
 
 }
