@@ -3,7 +3,7 @@ html,body {
   padding: 0;
   width: 100%;
   height: 100%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
   font-family: "BrandonGrotesque-Bold";
 }
 a {
@@ -750,5 +750,56 @@ footer {
   }
   #navdet{
     display: none;
+  }
+  
+  
+  
+  /* LandingPage Div */
+  .topContainer{
+    display: grid;
+    grid-template-rows: 1fr 1fr 0.2fr;
+    grid-template-columns: auto;
+    grid-template-areas: 
+    "dog"
+    "topDetails"
+    "topArrow";
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+
+  .topDetails{
+    grid-area: topDetails;
+    text-align: center;
+    grid-row: 2/3;
+  }
+  .topContainerHead{
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .topContainerDetails{
+    padding: 10px 1em;
+    font-size: 23px;
+  }
+
+  .topImage{
+    grid-area: dog;
+    grid-column: 1/2;
+    width: 100%;
+    justify-content: center;
+    padding-left: 4vw;
+    /* background-color: teal; */
+  }
+  .topImage > img{
+    width: 50vw;
+  }
+
+  .topArrow{
+    grid-area: topArrow;
+  }
+
+  /* BUTTONS */
+  .button{
+    font-size: 12px;
   }
 }
