@@ -1,11 +1,27 @@
-body {
+html,body {
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
   overflow-x: hidden;
+  font-family: "BrandonGrotesque-Bold";
 }
 a {
   color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* NAVBAR */
 .navbar {
@@ -68,14 +84,45 @@ a {
   border-color: #3cb0fd;
 }
 
+.hamMenu{
+  margin: 25px 0px 0 60px;
+  font-size: 26px; 
+  display: none;
+}
+
+.menu{
+  display: block;
+  text-align: center;
+  border-bottom: 1px solid rgb(207, 207, 207);
+  display: none;
+}
+
+.menu > a{
+  color: #474949;
+  text-decoration: none;
+  padding: 1.5em 0;
+  font-size: 20px;
+  margin-top: -1em;
+  display: block;
+}
+
+
+
+
+
+
+
+
+
 /* LandingPage Div */
 .topContainer {
   width: 100vw;
-  height: 85vh;
-  background-color: rgba(0, 0, 0, 0.05);
+  height: 80vh;
+  /* background-color: rgba(0, 0, 0, 0.05); */
   display: grid;
-  grid-template-rows: 90% 10%;
-  grid-template-columns: 60% 40%;
+  grid-template-rows: 94% 6%;
+  grid-template-columns: 65% 35%;
+  padding-bottom: 10px;
 }
 
 .topDetails {
@@ -99,6 +146,9 @@ a {
   display: flex;
   justify-content: flex-start;
   align-items: center;
+}
+.topImage > img{
+  width: 23vw;
 }
 
 .topArrow {
@@ -170,14 +220,28 @@ a {
   color: #2ab1c3;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
 /* HOW IT WORKS DIV */
 .workingDiv {
-  height: 90vh;
+  height: 80vh;
   width: 100vw;
   display: grid;
-  grid-template-rows: 40% 20% 40%;
+  grid-template-rows: 50% 10% 40%;
   grid-template-columns: auto;
-  padding: 1em;
+  padding:1em;
+  padding-bottom: 2em;
+  background-color: rgba(42, 177, 195, 0.09);
 }
 
 .wagrBand {
@@ -189,10 +253,11 @@ a {
 .wagrBandDetails {
   display: flex;
   justify-content: center;
-  align-items: center;
+  /* align-items: center; */
   text-align: center;
   color: #474949;
-  font-size: 20px;
+  font-size: 25px;
+  /* background-color: yellow; */
 }
 
 .wagrBandAnimations {
@@ -202,25 +267,48 @@ a {
   margin-top: 3em;
   /* background-color: teal; */
 }
+
 .wagrBandAnimations > div {
   display: grid;
   grid-template-rows: auto auto;
   justify-content: center;
+  align-items: center;
+  justify-items: center;
+  /* text-align: center; */
 }
+
 .wagrBandAnimations > div > div {
   color: #474949;
-  font-size: 20px;
+  font-size: 25px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* NEVER LOSE DOG DIV */
 .neverLoseDogDiv {
+  position: relative;
   width: 100vw;
   height: 75vh;
-  background-color: rgba(48, 167, 191, 0.85);
+  background: url('../assets/home/lost-dog.png');
+  background-size: cover;
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: auto;
   padding: 1em;
+}
+
+.loosedogBg{
+ background-color:rgba(48, 167, 191, 0.85)
 }
 
 .locationScreenDiv {
@@ -228,8 +316,9 @@ a {
   justify-content: center;
   align-items: center;
 }
+
 #location-screen {
-  margin-top: 3em;
+  margin-top: 5em;
 }
 
 .neverLoseDetails {
@@ -242,6 +331,7 @@ a {
   grid-template-rows: auto auto auto auto;
   grid-template-columns: auto;
   margin-top: 2em;
+  margin-right: 3em;
   /* background-color: yellow; */
 }
 .neverLoseBtn {
@@ -257,9 +347,20 @@ a {
   color: white;
 }
 
+
+
+
+
+
+
+
+
+
+
+
 /* KEEP DOG FIT DIV */
 .dogFitDiv {
-  height: 90vh;
+  height: 75vh;
   width: 100vw;
   display: grid;
   grid-template-rows: auto;
@@ -291,9 +392,15 @@ a {
 .dogfitDetailsDiv {
   /* background-color: tomato; */
   font-size: 20px;
-  padding: 2em;
+  padding: 2em 4em;
   padding-bottom: 0;
 }
+
+
+
+
+
+
 
 /* TRACK DOG'S WALK */
 .trackDogWalk {
@@ -311,9 +418,15 @@ a {
   z-index: 0;
 }
 
+
+
+
+
+
+
 /* FORM YOUR PACK */
 .formYourPack {
-  background: url("../assets/home/pack-image.jpg");
+  background: url("../assets/home/group-3.png");
   background-size: cover;
   position: relative;
   width: 100vw;
@@ -327,10 +440,15 @@ a {
   background-color: rgba(55, 169, 179, 0.47);
 }
 
+
+
+
+
 /* QUALCOMM SUPPORT */
 .QualcommSupport {
   /* background-color: teal; */
   margin: 4em 0;
+  margin-top: 5em;
   height: auto;
   width: 100vw;
   position: relative;
@@ -358,29 +476,120 @@ a {
   padding-right: 1em;
 }
 
+
+
+
+
+
+
+
+
+
+
 /* WAGR IN THE NEWS */
 .wagrNews {
-  height: 70vh;
+  height: 65vh;
   width: 100vw;
+  color: white;
+  font-size: 40px;
+  /* background-color: crimson; */
+  border-top: 3px solid #2ab1c3;
+  border-bottom: 3px solid #2ab1c3;
+
+  display: grid;
+  grid-template-rows: 1fr 4fr 1fr;
+}
+
+.wagrIntheNews{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.wagrIntheNews > div{
+  background-color: #2ab1c3;
+  padding: 12px;
+  font-size: 33px;
+  border-bottom-left-radius: 9px;
+  border-bottom-right-radius: 9px;
+}
+
+.reviewBox{
+  /* background-color: crimson; */
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 40px;
-  background-color: crimson;
+  font-size: 32px;
+  padding: 0 4em;
+  color: #474949;
 }
+
+.newsPapers{
+  display: flex;
+  flex-wrap: none;
+  justify-content: space-between;
+  padding-right: 13px;
+}
+
+.newsPapers > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  padding: 12px;
+  position: relative;
+}
+
+.newsPapers > div > img{
+  z-index: 1;
+}
+
+
+
+
+
+
 
 /* WAGR REVIEW */
 .wagrReview {
   height: 70vh;
   width: 100vw;
+  display: grid;
+  padding-top: 2em;
+  grid-template-rows: 1fr 1fr;
+
+  /* background-color: darkcyan; */
+}
+
+.wagrReviewDiv{
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: white;
-  font-size: 40px;
-  background-color: darkcyan;
+  text-align: center;
+  font-size: 30px;
+  color: #474949;
 }
+
+.wagrReviewImage{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.wagrReviewImage > img{
+  padding: 0 1em;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* WAGR VIDEO */
 .wagrVideo {
@@ -390,6 +599,12 @@ a {
   background: url("../assets/home/customer.jpg");
   background-size: cover;
 }
+
+
+
+
+
+
 
 /* WAGR AVAILABLE NOW */
 .wagrAvailable {
@@ -487,6 +702,18 @@ footer {
   color: white;
 }
 
+.iconsBlock{
+  /* background-color: yellow; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.iconsBlock > div{
+  padding: 1.3vw;
+  cursor: pointer;
+}
+
 .COMPANY {
   justify-content: flex-end;
 }
@@ -501,4 +728,27 @@ footer {
 
 .BLOG {
   justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE MOBILE VIEW */
+@media only screen and (max-width:760px){
+  .hamMenu{
+    display: block;
+    cursor: pointer;
+  }
+  #navdet{
+    display: none;
+  }
 }
