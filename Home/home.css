@@ -248,6 +248,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  /* background-color: teal; */
 }
 
 .wagrBandDetails {
@@ -802,4 +803,32 @@ footer {
   .button{
     font-size: 12px;
   }
+
+
+
+
+  /* HOW IT WORKS DIV */
+  .workingDiv{
+    padding: 2em 0;
+    grid-template-rows: 40% 20% 40%;
+    height: 60vh;
+  }
+
+  .wagrBand > img{
+    width: 60vw;
+  }
+
+  .wagrBandDetails{
+    font-size: 20px;
+    padding: 0 2em;
+  }
+
+  .wagrBandAnimations > div > img{
+    width: 15vw;
+  }
+  .wagrBandAnimations > div > div{
+    font-size: 20px;
+    text-align: center;
+  }
+
 }
