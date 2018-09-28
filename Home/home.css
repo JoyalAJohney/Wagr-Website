@@ -3,7 +3,7 @@ html,body {
   padding: 0;
   width: 100%;
   height: 100%;
-  /* overflow-x: hidden; */
+  overflow-x: hidden;
   font-family: "BrandonGrotesque-Bold";
 }
 a {
@@ -460,6 +460,10 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.qualcommImages{
+  width: 5vw;
+}
+
 .iconDetails {
   display: grid;
   grid-template-columns: auto;
@@ -470,6 +474,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 2em;
+  /* background-color: teal; */
 }
 
 .qualcomm {
@@ -479,8 +484,14 @@ a {
   padding-right: 1em;
 }
 
-
-
+.water{
+  justify-content: flex-end;
+  padding-right: 5em;
+}
+.light{
+  justify-content: flex-start;
+  padding-right: 5em;
+}
 
 
 
@@ -524,6 +535,7 @@ a {
   font-size: 32px;
   padding: 0 4em;
   color: #474949;
+  text-align: center;
 }
 
 .newsPapers{
@@ -561,6 +573,10 @@ a {
   grid-template-rows: 1fr 1fr;
 
   /* background-color: darkcyan; */
+}
+
+.reviewBoard{
+  padding: 1em 6em;
 }
 
 .wagrReviewDiv{
@@ -865,5 +881,132 @@ footer {
     width: 50vw;
     margin-top: 0;
   }
+
+
+
+
+  /* KEEP DOG FIT DIV */
+  .dogFitDiv{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 1em 0;
+    height: 85vh;
+    padding-bottom: 3em;
+  }
+
+  .dogFitImage > img{
+    width: 70vw;
+  }
+
+  .dogfitDetailsDiv{
+    padding: 0;
+    font-size: 20px;
+    margin: 10px 0;
+  }
+
+
+
+
+
+
+  /* TRACK DOG DIV */
+  .trackDogWalk{
+    height: 110vh;
+  }
+
+
+
+
+
+
+
+  /* FORM PACK DIV */
+  .formYourPack{
+    display: flex;
+    flex-direction: column-reverse;
+    height: 110vh;
+    padding:0;
+  }
+
+  .locationScreenDiv{
+    /* background-color: teal; */
+    padding-bottom: 1em;
+  }
+
+
+
+
+ 
+ 
+  /* QUALCOMM SUPPORT */
+  .QualcommSupport{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .qualcommImages{
+    width: 20vw;
+  }
+
+  .water{
+    display: flex;
+    justify-content: center;
+    padding-left: 3em;
+  }
+  .light{
+    justify-content: center;
+  }
+
+
+
+
+
+  /* WAGR IN NEWS */
+  .wagrNews{
+    font-size: 30px;
+  }
+  .wagrIntheNews > div{
+    font-size: 17px;
+  }
+  .reviewBox{
+    font-size: 20px;
+  }
+  .newsPapers > div > img{
+    width: 12vw;
+  }
+  .newsPapers{
+    padding-right: 0;
+  }
+
+
+
+
+
+
+  /* WAGR REVIEW */
+  .wagrReviewImage > img{
+    width: 15vw;
+    padding: 0 5px;
+  }
+  .wagrReview{
+    display: block;
+    padding: 3em 0;
+    height: auto;
+  }
+  .reviewBoard{
+    padding: 10px 5px;
+    font-size: 25px;
+    padding-bottom: 2em;
+  }
+  .reviewOwner{
+    padding-bottom: 1em;
+  }
+
+
+
+
+
+
+  /* WAGR VIDEO */
 
 }
