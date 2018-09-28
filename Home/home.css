@@ -657,6 +657,13 @@ a {
   align-items: center;
 }
 
+
+
+
+
+
+
+
 /* FOOTER */
 footer {
   position: relative;
@@ -1008,5 +1015,52 @@ footer {
 
 
   /* WAGR VIDEO */
+  .wagrVideo{
+    height: 25vh;
+    background-size: contain;
+  }
+
+
+
+
+
+  /* WAGR AVAILABLE NOW */
+  .wagrAvailable{
+    display: flex;
+    flex-direction: column-reverse;
+    height: auto;
+    padding: 7px 0;
+  }
+
+  .dayBack > img{
+    width: 40vw;
+  }
+  .dayBack{
+    justify-content: center;
+  }
+
+  .availablePic > img{
+    width: 40vw;
+  }
+
+
+
+  /*FOOTER*/
+  .newsLetter{
+    font-size: 20px;
+  }
+  .Email > input{
+    height: 1em;
+    width: 40vw;
+    margin-top: 10px;
+  }
+
+  .linksBlock{
+    padding: 2em 0;
+    padding-left: 5px;
+  }
+  .linksBlock > div{
+    padding: 5px;
+  }
 
 }
