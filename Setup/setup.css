@@ -17,19 +17,20 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    font-size: 40px;
 }
 
 
 
 /* Phone Image */
 .PhoneImage{
-    padding-top: 3em;
+    padding-top: 1em;
 }
 
 .PhoneImage > div{
     display: flex;
     flex-direction: column;
-    margin: 0 2em;
+    margin: 0 1em;
     /* background-color: yellow; */
     align-items: center;
 }
@@ -38,13 +39,101 @@
     cursor: pointer;
 }
 
+#playstore{
+    width: 185px;
+    margin-top: 0px;
+}
+
+#android{
+    margin-bottom: -1em;
+}
+
+.phoneDetails{
+    font-size: 30px;
+    padding: 2em 12em;
+}
 
 
 
 /* WAGR UNBOX */
 .wagrUnbox{
-    margin-top: 5em;
+    margin-top: 7em;
     background: url('../assets/Setup/bitmap.png');
     height: 80vh;
     background-size: cover;
+}
+
+
+.anyQuestions{
+    padding-left: 0;
+    font-size: 30px;
+    height: 45vh;
+    padding-top: 0;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+/* RESPONSIVE MOBILE VIEW */
+@media only screen and (max-width:760px){
+    .setupMobileDiv{
+        display: block;
+        height: auto;
+    }
+
+    .setupMobileDiv > div{
+        font-size: 30px;
+    }
+
+
+    /* PHONE IMAGE */
+    .PhoneImage{
+        padding-top: 2em;
+    }
+
+    .PhoneImage > div{
+        margin: 0 2px;
+    }
+
+    #ios{
+        width: 37vw;
+        height: 50vh;
+    }
+    #android{
+        width: 55vw;
+        height: 55vh;
+    }
+
+    .phoneDetails{
+        font-size: 10px;
+        padding: 0;
+        padding-top: 3em;
+    }
+
+
+
+    /* WAGR UNBOX */
+    .wagrUnbox{
+        height: 20vh;
+        margin-top: 1em;
+    }
+
+    .anyQuestions{
+        font-size: 20px;
+        height: 55vh;
+        text-align: center;
+        margin-top: -3em;
+        position: inherit;
+    }
+
+    #EmailUs{
+        font-size: 10px;
+    }
 }

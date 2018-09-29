@@ -17,17 +17,35 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
+
         <div class="navLogo">
             <img src="../assets/home/logo.png" class="Logo">
         </div>
 
-        <div class="navDetails">
+        <div class="navDetails" id="navdet">
             <button class="button">Buy Now</button>
             <a href="#">Support</a>
             <a href="#">FAQ</a>
             <a href="#">About Us</a>
         </div>
+
+
+        <label class="hamMenu" for="toggle">&#9776;</label>
     </nav>
+
+
+
+    <!-- Resposive DropDown Menu -->
+    <div class="menu" id="menus">
+        <button class="button">Buy Now</button>
+        <a href="#">Support</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
+    </div>
+
+
+
+
 
 
 
@@ -36,23 +54,23 @@
 
     <!-- Setup Mobile Div -->
     <div class="setupMobileDiv">
-        <div style="font-size: 35px;">
-            Get the Wagr App to set up your Tracker
+        <div>
+            Download The Wagr App
         </div>
 
         <div class="PhoneImage">
             <div>
-                <img src="../assets/Setup/i-os-mockup.png" />
-                <img src="../assets/Setup/app-store-icon.png" class="appstore-icon" />
+                <img id="ios" src="../assets/Setup/i-os-mockup.png" />
+                <img id="appstore" src="../assets/Setup/app-store-icon.png" class="appstore-icon" />
             </div>
             <div>
-                <img style="margin-bottom: -2.5em" src="../assets/Setup/android-mockup.png" />
-                <img width="185em" src="../assets/Setup/google-play-icon.png" class="appstore-icon" />
+                <img id="android" src="../assets/Setup/android-mockup.png" />
+                <img id="playstore" src="../assets/Setup/google-play-icon.png" class="appstore-icon" />
             </div>
         </div>
 
-        <div style="font-size: 30px;padding: 2em 12em;">
-            For full setup instructions watch our unboxing and setup video below
+        <div class="phoneDetails">
+            Watch the Unboxing Video
         </div>
 
     </div>
@@ -72,16 +90,22 @@
 
 
     <!-- WAGR QUESTIONS -->
-    <div class="wagrQuestions" style="height: 35vh;padding-left: 20vw">
+    <div class="wagrQuestions anyQuestions">
         <div class="wagrQuestMiddle">
-            <div style="font-size: 30px;text-align: center;color: #474949">
-                Do you have any questions for us?
+            <div style="text-align: center;color: #474949">
+                Read Our Guides
             </div>
             <div class="topContainerButtons">
-                <button class="button containerBtn buyNow">Call Us</button>
-                <button class="button learnMore containerBtn" id="EmailUs">
-                    Email Us
+                <button class="button containerBtn buyNow">
+                    User Guide
                 </button>
+                <button class="button learnMore containerBtn" id="EmailUs">
+                    Quick Start Guide
+                </button>
+            </div>
+            <div>
+                If you want more information on how to setup and use Wagr, you can also visit our Support Base or drop
+                a mail to help@wagr.in .
             </div>
         </div>
     </div>
@@ -148,6 +172,18 @@
         </div>
     </footer>
 
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamMenu").click(function () {
+                $("#menus").toggle();
+            });
+        });
+    </script>
 
 
 </body>
