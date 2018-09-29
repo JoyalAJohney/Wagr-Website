@@ -768,6 +768,16 @@ footer {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* RESPONSIVE MOBILE VIEW */
 @media only screen and (max-width:760px){
   .hamMenu{
@@ -1057,10 +1067,13 @@ footer {
 
   .linksBlock{
     padding: 2em 0;
-    padding-left: 5px;
+    /* padding-left: 5px; */
   }
   .linksBlock > div{
     padding: 5px;
+  }
+  footer{
+    height: 70vh;
   }
 
 }

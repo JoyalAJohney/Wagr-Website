@@ -17,23 +17,40 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
+
         <div class="navLogo">
             <img src="../assets/home/logo.png" class="Logo">
         </div>
 
-        <div class="navDetails">
+        <div class="navDetails" id="navdet">
             <button class="button">Buy Now</button>
             <a href="#">Support</a>
             <a href="#">FAQ</a>
             <a href="#">About Us</a>
         </div>
+
+
+        <label class="hamMenu" for="toggle">&#9776;</label>
     </nav>
+
+
+
+    <!-- Resposive DropDown Menu -->
+    <div class="menu" id="menus">
+        <button class="button">Buy Now</button>
+        <a href="#">Support</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
+    </div>
+
+
+
 
 
 
     <!-- TOP IMAGE DIV -->
     <div class="topImageDiv">
-        <img style="width: 100vw" src="../assets/404/cover.png">
+        <img src="../assets/404/cover.png">
     </div>
 
 
@@ -41,7 +58,7 @@
 
     <!-- 404 Details -->
     <div class="detail404">
-        <div style="font-size: 40px;margin-bottom: 1em;">Hi there, you seem to have lost your way a bit!</div>
+        <div class="mainText" style="margin-bottom: 1em;">Hi there, you seem to have lost your way a bit!</div>
         <div style="font-size: 23px;margin-bottom: 2em">
             But don’t worry, just click the button below to get back home.
         </div>
@@ -116,6 +133,15 @@
 
 
 
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamMenu").click(function () {
+                $("#menus").toggle();
+            });
+        });
+    </script>
 
 
 </body>
