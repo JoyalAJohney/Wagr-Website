@@ -10,6 +10,13 @@
     grid-template-rows: 0.7fr 3fr;
     margin-top: 3em;
     margin-bottom: 1em;
+    font-size: 35px;
+}
+
+#getTouch{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
 }
 
 .contactDetail > div{
@@ -51,6 +58,10 @@
     padding-top: 2em;
 }
 
+#sent{
+    padding-left: 13vw;
+}
+
 .contactFields > div{
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
@@ -79,4 +90,67 @@
     background-color:#fad38a;
     border: 1px solid #fad38a;
     color: #78645b;
+}
+
+.topImageDiv > img{
+    width: 100vw;
+}
+
+
+
+
+
+
+
+/* RESPONSIVE MOBILE VIEW */
+@media only screen and (max-width:760px){
+    .topImageDiv > img{
+        width: 100vw;
+    }
+
+
+    /* CONTACT DETAIL */
+    .contactDetail{
+        margin-top: -2em;
+        height: auto;
+        padding: 1em 0;
+    }
+
+    #getTouch{
+        align-items: center;
+    }
+
+    .contactInput{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    .contactInput > div{
+        padding: 0;
+        width: 100vw;
+    }
+
+    .adress{
+        text-align: center;
+    }
+
+    #sent{
+        padding-left: 0;
+        display: flex;
+        justify-content: center;
+    }
+
+    .contactFields > div{
+        display: block;
+        /* background-color: crimson; */
+        left: 0;
+        margin: 1em 0;
+        padding: 12px 0;
+    }
+
+    .contactFields textarea{
+        padding: 10px 10px;
+        margin-top: 7px;
+    }
 }
