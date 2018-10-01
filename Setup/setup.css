@@ -73,6 +73,11 @@
 }
 
 
+.moreInfo{
+    padding: 1em 7em;
+    font-size: 20px;
+}
+
 
 
 
@@ -135,5 +140,10 @@
 
     #EmailUs{
         font-size: 10px;
+    }
+
+    .moreInfo{
+        padding: 1px 0;
+        font-size: 17px;
     }
 }
