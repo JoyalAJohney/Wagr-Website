@@ -493,10 +493,10 @@ a {
 /* QUALCOMM SUPPORT */
 .QualcommSupport {
   /* background-color: teal; */
-  margin: 4em 0;
-  margin-top: 5em;
+  margin: 3em 0;
+  margin-bottom: 0em;
   height: auto;
-  width: 100vw;
+  width: 98vw;
   position: relative;
   display: grid;
   grid-template-rows: auto;
@@ -517,6 +517,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 2em;
+  font-family: "BrandonGrotesque-Lit";
   /* background-color: teal; */
 }
 
@@ -524,7 +525,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-right: 1em;
+  /* padding-right: 1em; */
 }
 
 .water{
@@ -534,6 +535,13 @@ a {
 .light{
   justify-content: flex-start;
   padding-right: 5em;
+}
+
+.headImages{
+  color: #474949;
+  font-weight: bold;
+  font-size: 25px;
+  font-family: "BrandonGrotesque-Med";
 }
 
 
@@ -579,6 +587,7 @@ a {
   padding: 0 4em;
   color: #474949;
   text-align: center;
+  font-family: "BrandonGrotesque-Lit";
 }
 
 .newsPapers{
@@ -620,6 +629,8 @@ a {
 
 .reviewBoard{
   padding: 1em 6em;
+  font-family: "BrandonGrotesque-Lit";
+  font-size: 33px;
 }
 
 .wagrReviewDiv{
@@ -636,6 +647,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  margin: 0 1.5em;
 }
 
 .wagrReviewImage > img{
@@ -658,8 +670,9 @@ a {
   position: relative;
   height: 90vh;
   width: 100vw;
-  background: url("../assets/home/customer.jpg");
-  background-size: cover;
+  /* background: url("../assets/home/customer.jpg"); */
+  /* background-size: cover; */
+  border: 2px solid #2ab1c3;
 }
 
 
@@ -711,7 +724,7 @@ a {
 footer {
   position: relative;
   width: 100vw;
-  height: 80vh;
+  height: 85vh;
   background: url("../assets/home/footer-1.jpg");
   background-size: cover;
 }
@@ -732,26 +745,32 @@ footer {
   display: flex;
   justify-content: center;
   align-items: flex-end;
-  font-size: 35px;
+  font-size: 40px;
   color: white;
+  margin-top: 1em;
+  font-family: "BrandonGrotesque-Lit";
 }
 
 .Email {
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 2em 0;
 }
 
 .Email > input {
-  padding: 10px;
-  border-radius: 1.2em;
-  height: 1.5em;
-  width: 25vw;
+  padding: 9px;
+  border-radius: 0.8em;
+  height: 1.6em;
+  width: 27vw;
   text-indent: 1em;
   outline: none;
+  font-size: 20px;
+  color: #474949;
 }
 
 .linksBlock {
+  padding-top: 1em;
   /* background-color: crimson; */
   display: grid;
   grid-template-columns: 1.5fr 0.8fr 1fr 1.8fr;
@@ -766,9 +785,10 @@ footer {
 }
 
 .linksBlock > div > a {
-  font-size: 15px;
+  font-size: 16px;
   cursor: pointer;
   color: white;
+  padding: 10px 0;
 }
 
 .iconsBlock{
@@ -779,7 +799,7 @@ footer {
 
 }
 .iconsBlock > div{
-  padding: 1.3vw;
+  padding: 1.6vw;
   cursor: pointer;
 }
 
