@@ -49,9 +49,12 @@
 /* WAGR BAND */
 .wagrBand{
     width: 100vw;
-    height: 20vh;
+    height: auto;
+    padding: 1em 0;
     background-color: #2ab1c3;
     text-align: center;
+    color: whitesmoke;
+    font-size: 35px;
 }
 
 .dimens-left > div{
