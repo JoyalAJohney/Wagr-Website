@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css"> -->
     <link rel="stylesheet" href="../Careers/career.css">
     <link rel="stylesheet" href="../Home/home.css">
     <title>Careers</title>
@@ -41,17 +42,80 @@
 
     <!-- CAREERS CONTENT -->
     <div class="careerContent">
-        <div style="text-align: center;color: #474949;font-size: 37px;">
+        <div style="text-align: center;color: #474949;font-size: 40px;">
             Come Join The Pack
         </div>
 
-        <div style="text-align: center;font-size: 23px;color: #474949;padding: 0 23vw;">
-            Are you passionate about dogs and also love technology? Check out our open positions below. Even if you
-            don't see a fit for
-            your profile, do send a mail at jobs@wagr.in and tell us more about yourself.
+        <div style="text-align: center;font-size: 23px;color: #474949;padding: 0 12vw;">
+            Are you passionate about dogs and also love the experience of working in a startup? Check out our open
+            positions<br /> below. Even if you don't see a fit for your profile, do send a mail at jobs@wagr.in and
+            tell us
+            more about yourself.
         </div>
 
-        <div style="display: grid;grid-template-columns: 1fr 1fr">
+
+        <div class="container">
+            <div class="accordion">
+                <div class="head">
+                    <div></div>
+                    <span>Full Stack Developer</span>
+                    <label for="expand1">-</label>
+                </div>
+                <div class="body">
+                    We're looking for creative engineers who is open to learning and expanding their perspective.<br />
+                    Knowing PHP,Java,Swift,and C should help as well.
+                </div>
+            </div>
+
+            <div class="accordion">
+                <div class="head">
+                    <div></div>
+                    <span>Graphic Designer</span>
+                    <label for="expand1">-</label>
+                </div>
+                <div class="body">
+                    We're looking for creative engineers who is open to learning and expanding their perspective.<br />
+                    Knowing PHP,Java,Swift,and C should help as well.
+                </div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- <div style="display: grid;grid-template-columns: 1fr 1fr">
             <div class="careerDetail" style="align-items: flex-end;">
                 <div>
                     <div style="font-size: 25px;">Product & Technology</div>
@@ -71,10 +135,10 @@
                         <span>Customer Support Executive</span>
                     </div>
                 </div>
-            </div>
+            </div> -->
 
 
-        </div>
+    </div>
     </div>
 
 
@@ -89,8 +153,8 @@
                 Subscribe To Our Newsletter
             </div>
 
-            <div class="Email">
-                <input type="text" placeholder="E-mail" />
+            <div id="Email">
+                <input id="EmailInput" type="text" placeholder="E-mail" />
             </div>
 
             <div class="linksBlock">
@@ -141,8 +205,24 @@
     </footer>
 
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+    <script src="./careers.js"></script>
 </body>
 
 </html>
