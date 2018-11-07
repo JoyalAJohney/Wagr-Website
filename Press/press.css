@@ -12,4 +12,42 @@
     justify-content: center;
     text-align: center;
     color: #474949;
+    font-size: 35px;
+}
+
+
+.pressMedia{
+    font-size: 23px;
+    padding: 2em 10em;
+}
+
+.download{
+    font-size: 20px;
+    padding: 1em 10em;
+    padding-top: 1em
+}
+
+
+
+
+
+
+
+/* RESPONSIVE MOBILE VIEW */
+@media only screen and (max-width:760px){
+    .pressDetail{
+        font-size: 33px;
+        height: auto;
+        margin-top: -2em;
+        padding-bottom: 1em;
+    }
+
+    .pressMedia{
+        padding: 1em 7px;
+    }
+
+    .download{
+        font-size: 25px;
+        padding: 1em 1em;
+    }
 }

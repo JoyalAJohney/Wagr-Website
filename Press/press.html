@@ -16,19 +16,38 @@
 
 
 
+
     <!-- NAVBAR -->
     <nav class="navbar">
+
         <div class="navLogo">
             <img src="../assets/home/logo.png" class="Logo">
         </div>
 
-        <div class="navDetails">
+        <div class="navDetails" id="navdet">
             <button class="button">Buy Now</button>
             <a href="#">Support</a>
             <a href="#">FAQ</a>
             <a href="#">About Us</a>
         </div>
+
+
+        <label class="hamMenu" for="toggle">&#9776;</label>
     </nav>
+
+
+
+    <!-- Resposive DropDown Menu -->
+    <div class="menu" id="menus">
+        <button class="button">Buy Now</button>
+        <a href="#">Support</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
+    </div>
+
+
+
+
 
 
 
@@ -41,14 +60,14 @@
 
     <!-- PRESS DETAILS -->
     <div class="pressDetail">
-        <div style="font-size: 35px">
+        <div>
             Press Details
         </div>
-        <div style="font-size: 25px;padding: 2em 10em;">
+        <div class="pressMedia">
             For press and media enquiries, do send a mail to press@wagr.in. We would love to share our journey with
             you.
         </div>
-        <div style="font-size: 25px;padding: 1em 10em;padding-top: 1em">
+        <div class="download">
             You can also download our press kit below.
         </div>
         <div>
@@ -119,6 +138,20 @@
         </div>
     </footer>
 
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamMenu").click(function () {
+                $("#menus").toggle();
+            });
+        });
+    </script>
 </body>
 
 </html>

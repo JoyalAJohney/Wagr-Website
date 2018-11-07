@@ -12,34 +12,57 @@
 
 <body>
 
+
+
+
+
     <!-- NAVBAR -->
     <nav class="navbar">
+
         <div class="navLogo">
             <img src="../assets/home/logo.png" class="Logo">
         </div>
 
-        <div class="navDetails">
+        <div class="navDetails" id="navdet">
             <button class="button">Buy Now</button>
             <a href="#">Support</a>
             <a href="#">FAQ</a>
             <a href="#">About Us</a>
         </div>
+
+
+        <label class="hamMenu" for="toggle">&#9776;</label>
     </nav>
 
 
 
-    <!--TABS-->
-
-    <div style="display:flex;justify-content: center;font-size:40px;padding: 35px;padding-top:60px;">Wagr Legal
-        Documents</div>
-    <div class="tabs">
-        <div style="border-bottom:3px solid #2ab1c3;"><a>TERMS OF SALE</a></div>
-        <div><a>TERMS OF USE</a></div>
-        <div><a>PRIVACY POLICY</a></div>
-        <div><a>EULA</a></div>
-        <div><a>WARRANTY</a></div>
-        <div><a>REFFERAL T&C</a></div>
+    <!-- Resposive DropDown Menu -->
+    <div class="menu" id="menus">
+        <button class="button">Buy Now</button>
+        <a href="#">Support</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
     </div>
+
+
+
+
+
+
+
+
+
+    <!--TABS-->
+    <div class="headLegal">Wagr Legal Documents</div>
+    <div class="tabs">
+        <div style="border-bottom:3px solid #2ab1c3;"><a>TERMS OF USE</a></div>
+        <div><a>PRIVACY POLICY</a></div>
+        <div><a>DEVICE AGT. & WARRANTY</a></div>
+        <div><a>OFFER T&C</a></div>
+    </div>
+
+
+
     <div class="content">
         <br />
         IMPORTANT: YOU MUST READ AND AGREE TO THESE WHISTLE PRODUCT TERMS OF SALE (THIS “AGREEMENT”) BEFORE OPENING OR
@@ -263,6 +286,23 @@
 
 
 
+
+
+
+
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamMenu").click(function () {
+                $("#menus").toggle();
+            });
+        });
+    </script>
 
 
 

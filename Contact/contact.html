@@ -17,37 +17,55 @@
 
     <!-- NAVBAR -->
     <nav class="navbar">
+
         <div class="navLogo">
             <img src="../assets/home/logo.png" class="Logo">
         </div>
 
-        <div class="navDetails">
+        <div class="navDetails" id="navdet">
             <button class="button">Buy Now</button>
             <a href="#">Support</a>
             <a href="#">FAQ</a>
             <a href="#">About Us</a>
         </div>
+
+
+        <label class="hamMenu" for="toggle">&#9776;</label>
     </nav>
+
+
+
+    <!-- Resposive DropDown Menu -->
+    <div class="menu" id="menus">
+        <button class="button">Buy Now</button>
+        <a href="#">Support</a>
+        <a href="#">FAQ</a>
+        <a href="#">About Us</a>
+    </div>
+
+
+
+
 
 
 
 
     <!-- TOP IMAGE DIV -->
     <div class="topImageDiv">
-        <img style="width: 100vw" src="../assets/Contact/cover-map.png">
+        <img src="../assets/Contact/cover-map.png">
     </div>
 
 
 
     <!-- CONTACT DETAIL -->
     <div class="contactDetail">
-        <div style="font-size: 40px;display: flex;align-items: flex-end;justify-content: center;">
+        <div id="getTouch">
             Get In Touch
         </div>
 
         <div class="contactInput">
 
-            <div style="flex-direction: column">
+            <div class="adress" style="flex-direction: column">
                 <div class="detailhead" style="margin-top: 0">Address</div>
                 <div class="detail">
                     #536, 2nd Floor, Amarjyothi Layout, Domlur, Bangalore, India
@@ -63,13 +81,13 @@
             <div class="contactFields">
                 <div>
                     <div style="display: flex;align-items: center">
-                        <input style="margin-right: 5px;flex-basis: 50%" type="text" placeholder="Name" />
-                        <input style="flex-basis: 50%" type="text" placeholder="Email" />
+                        <input style="margin-right: 1px;flex-basis: 50%" type="text" placeholder="Name" />
+                        <input style="flex-basis: 40%" type="text" placeholder="Email" />
                     </div>
                     <div>
-                        <textarea rows="10" cols="50" placeholder="Your Message"></textarea>
+                        <textarea rows="10" cols="40" placeholder="Your Message"></textarea>
                     </div>
-                    <div style="padding-left: 13vw;">
+                    <div id="sent">
                         <button class="button containerBtn Sendbtn">Send</button>
                     </div>
                 </div>
@@ -142,6 +160,19 @@
         </div>
     </footer>
 
+
+
+
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".hamMenu").click(function () {
+                $("#menus").toggle();
+            });
+        });
+    </script>
 </body>
 
 </html>

@@ -9,6 +9,43 @@
     text-align: center;
     flex-direction: column;
     color: #474949;
-    padding-left: 1vw;
+    /* padding-left: 1vw; */
     padding-top: 1em;
+    font-size: 40px;
+}
+
+
+.topImageDiv > img{
+    width: 100vw;
+}
+
+.topImageDiv{
+    /* background-color: crimson; */
+    display: flex;
+    align-items: flex-start;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE MOBILE VIEW */
+@media only screen and (max-width:760px){
+    .topImageDiv > img{
+        height: 30vw;
+    }
+    .mainText{
+        font-size: 25px;
+    }
+    .detail404{
+        text-align: center;
+        /* background-color: teal; */
+        padding-left: 0;
+        padding: 10px 0;
+        height: auto;
+        padding-bottom: 1em;
+    }
 }

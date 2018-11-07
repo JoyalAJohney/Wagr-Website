@@ -60,9 +60,9 @@
 
             <div>
                 <div class="topContainerHead">Meet Wagr</div>
-                <div class="topContainerDetails">A smart location & fitness tracker for your dog.</div>
+                <div class="topContainerDetails">A smart location & fitness tracker<br /> for your dog.</div>
                 <div class="topContainerButtons">
-                    <button class="button learnMore containerBtn">Learn More</button>
+                    <button class="buttonGrey learnMore containerBtn">Learn More</button>
                     <button class="button containerBtn buyNow">Buy Now</button>
                 </div>
                 <div class="topContainerPrice">
@@ -99,22 +99,22 @@
         </div>
 
         <div class="wagrBandDetails">
-            Wagr attaches to your dog’s collar helps you keep your best friend safe & fit.
+            Wagr attaches to your dog’s collar helps you keep your best friend<br /> safe & fit.
         </div>
 
         <div class="wagrBandAnimations">
-            <div>
+            <div id="location">
                 <img src="../assets/home/safe.svg">
-                <div style="font-weight:bold">Location Tracking</div>
+                <div style="font-weight:bold">Track Location</div>
             </div>
 
-            <div>
+            <div id="fitness">
                 <img src="../assets/home/Activity.svg">
-                <div style="font-weight:bold">Fitness Monitoring</div>
+                <div style="font-weight:bold">Track Activity</div>
             </div>
-            <div>
+            <div id="walk">
                 <img src="../assets/home/maps.png">
-                <div style="font-weight:bold">Walk Reports</div>
+                <div style="font-weight:bold">Track Walks</div>
             </div>
         </div>
     </div>
@@ -126,20 +126,21 @@
 
 
     <!-- NEVER LOSE YOUR DOG DIV -->
-    <div class="neverLoseDogDiv" style="height: 85vh;">
+    <div class="neverLoseDogDiv">
 
         <div class="transparentDiv loosedogBg"></div>
 
         <div class="neverLoseDetails" style="z-index: 1;">
-            <div style="margin-top: 5em;">
+            <div>
 
-                <div class="topContainerHead" style="color: white;font-size: 34px;font-weight: bold">
+                <div class="topContainerHead" style="color: white;">
                     Never Lose Your Dog
                 </div>
 
                 <div class="topContainerDetails gpsDetails">
-                    Did you know that 1 in 3 dogs get lost once in their life. Wagr comes with GPS allowing you to
-                    track your buddy, even if
+                    Did you know that 1 in 3 dogs get lost once in their<br /> life. Wagr comes with GPS allowing you
+                    to
+                    track your<br /> buddy, even if
                     you're a 1000 miles away.
                 </div>
 
@@ -154,7 +155,7 @@
             </div>
         </div>
 
-        <div class="locationScreenDiv" style="z-index: 1;margin-top: 2em">
+        <div class="locationScreenDiv" style="z-index: 1;">
             <img src="../assets/home/location-screen-mockup.png" id="location-screen">
         </div>
 
@@ -176,15 +177,17 @@
             <div>
                 <div class="topContainerHead">Keep Your Dog Fit</div>
                 <div class="topContainerDetails dogfitDetailsDiv" style="text-align: center">
-                    Obesity can take away upto 2 years of your dog’s life. Wagr’s unique motion sensing algorithms tell
-                    you how much exercise
+                    Obesity can take away upto 2 years of your dog’s life.<br />sWagr’s unique motion sensing
+                    algorithms tell
+                    you how<br /> much exercise
                     and rest your dog is getting.
                 </div>
                 <div style="display: flex;justify-content: center;align-items: center; padding: 1em;">
-                    <button class="button containerBtn">Learn More</button>
+                    <button class="buttonGrey containerBtn">Learn More</button>
                 </div>
             </div>
         </div>
+
     </div>
 
 
@@ -195,22 +198,24 @@
 
     <!-- TRACK YOUR DOG'S WALKS -->
     <div class="neverLoseDogDiv trackDogWalk">
+
         <div class="transparentDiv"></div>
 
-        <div class="neverLoseDetails" style="z-index: 1;">
-            <div style="margin-top: 5em;">
+        <div class="neverLoseDetails trackDogDetails" style="z-index: 1;">
+            <div style="margin-top: 8em;">
 
-                <div class="topContainerHead" style="color: white;font-size: 34px;font-weight: bold">
+                <div class="topContainerHead" style="color: white">
                     Track Your Dog’s Walks
                 </div>
 
                 <div class="topContainerDetails gpsDetails">
-                    Rest assured that your dog is being taken for long walks . See the exact routes walked, distance
-                    covered, and time taken,
+                    Rest assured that your dog is being taken for long <br />walks . See the exact routes walked,
+                    distance
+                    covered,<br /> and time taken,
                     on the Wagr app.
                 </div>
 
-                <div style="display: flex;justify-content: center;align-items: center; padding: 1em;">
+                <div style="display: flex;justify-content: center;align-items: center;">
                     <button class="button neverLoseBtn containerBtn">Learn More</button>
                 </div>
 
@@ -218,7 +223,7 @@
         </div>
 
         <div class="locationScreenDiv" style="z-index: 1;">
-            <img src="../assets/home/3-walks.png" id="location-screen">
+            <img src="../assets/home/3-walks.png" id="location-screen-new">
         </div>
 
     </div>
@@ -231,11 +236,12 @@
 
     <!-- FORM YOUR PACK -->
     <div class="neverLoseDogDiv formYourPack">
+
         <div class="transparentDiv formPack"></div>
 
 
         <div class="locationScreenDiv" style="z-index: 1;">
-            <img src="../assets/home/pack-screen-mockup.png" id="location-screen">
+            <img src="../assets/home/pack-screen-mockup.png" id="location-screen-new">
         </div>
 
 
@@ -243,17 +249,18 @@
         <div class="neverLoseDetails" style="z-index: 1;margin-top: 3em">
             <div style="margin-top: 5em;">
 
-                <div class="topContainerHead" style="color: white;font-size: 34px;font-weight: bold">
+                <div class="topContainerHead" style="color: white">
                     Form Your Pack
                 </div>
 
-                <div class="topContainerDetails gpsDetails" style="font-size: 25px;padding: 2em;padding-bottom: 0;padding-top: 1em">
-                    Track all your dogs on the same app. Also get your friends and family members on board to help you
+                <div class="topContainerDetails gpsDetails">
+                    Track all your dogs on the same app. Also get your<br />friends and family members on board to help
+                    you<br />
                     take care of your dogs
                     .
                 </div>
 
-                <div style="display: flex;justify-content: center;align-items: center; padding: 1em;">
+                <div style="display: flex;justify-content: center;align-items: center;">
                     <button class="button neverLoseBtn containerBtn">Learn More</button>
                 </div>
 
@@ -279,21 +286,21 @@
 
             <div style="justify-content: flex-end;padding-left: 3em">
                 <div style="display: flex;flex-direction: column;text-align: center;">
-                    <img src="../assets/home/battery-icon.png" style="width: 5vw;padding: 10px;align-self: center" />
-                    <div style="color: #474949;font-weight: bold">Long Battery Life</div>
-                    <p style="font-size: 20px;color: #474949;">
-                        Go for upto a week on a full charge depending on usage
-                    </p>
+                    <img class="qualcommImages" src="../assets/home/battery-icon.png" style="padding: 10px;align-self: center" />
+                    <div class="headImages">Long Battery Life</div>
+                    <div style="font-size: 23px;color: #474949;">
+                        Go for upto a week on a full<br /> charge depending on usage
+                    </div>
                 </div>
             </div>
 
             <div style="justify-content: flex-start;padding-left: 3em">
                 <div style="display: flex;flex-direction: column;text-align: center;">
-                    <img src="../assets/home/collar-icon.png" style="width: 5vw;padding: 10px;align-self: center" />
-                    <div style="color: #474949;font-weight: bold">Fits All Collar Sizes</div>
-                    <p style="font-size: 20px;color: #474949;">
-                        Unique attachment mechanism allows usage on all collars
-                    </p>
+                    <img class="qualcommImages" src="../assets/home/collar-icon.png" style="padding: 10px;align-self: center;width: 7vw" />
+                    <div class="headImages">Fits All Collar Sizes</div>
+                    <div style="font-size: 23px;color: #474949;">
+                        Unique attachment mechanism<br /> allows usage on all collars
+                    </div>
                 </div>
             </div>
 
@@ -313,23 +320,23 @@
 
         <div class="iconDetails">
 
-            <div style="justify-content: flex-end;padding-right: 5em">
+            <div class="water">
                 <div style="display: flex;flex-direction: column;text-align: center;">
-                    <img src="../assets/home/waterproof-icon.png" style="width: 5vw;padding: 10px;align-self: center" />
-                    <div style="color: #474949;font-weight: bold">Dust & Waterproof</div>
-                    <p style="font-size: 20px;color: #474949;">
-                        IP67 Rating ensures that it can withstand a dog’s life
-                    </p>
+                    <img class="qualcommImages" src="../assets/home/waterproof-icon.png" style="padding: 10px;align-self: center" />
+                    <div class="headImages">Dust & Waterproof</div>
+                    <div style="font-size: 23px;color: #474949;">
+                        IP67 Rating ensures that it can<br /> withstand a dog’s life
+                    </div>
                 </div>
             </div>
 
-            <div style="justify-content: flex-start;padding-right: 5em">
+            <div class="light">
                 <div style="display: flex;flex-direction: column;text-align: center;">
-                    <img src="../assets/home/light-icon.png" style="width: 5vw;padding: 10px;align-self: center" />
-                    <div style="color: #474949;font-weight: bold">Small & Lightweight</div>
-                    <p style="font-size: 20px;color: #474949;">
-                        Weighs less than 30 g, making it the lightest pet tracker in the market
-                    </p>
+                    <img class="qualcommImages" src="../assets/home/light-icon.png" style="padding: 8px;align-self: center;width: 4vw;" />
+                    <div class="headImages">Small & Lightweight</div>
+                    <div style="font-size: 23px;color: #474949;">
+                        Weighs less than 30 g, making it the<br /> lightest pet tracker in the market
+                    </div>
                 </div>
             </div>
 
@@ -383,10 +390,10 @@
     <!-- WAGR REVIEW -->
     <div class="wagrReview">
         <div class="wagrReviewDiv">
-            <div style="padding:1em 6em;">
+            <div class="reviewBoard">
                 “Wagr is the most amazing thingamajic in the whole wide universe, and that inclues Thanos’ rings”
             </div>
-            <div style="font-size:20px;">
+            <div class="reviewOwner" style="font-size:20px;">
                 Dr. Champak Naik, Precise Pet Clinic
             </div>
         </div>
@@ -406,7 +413,7 @@
 
     <!-- WAGR VIDEO -->
     <div class="wagrVideo">
-        <div class="transparentDiv formPack"></div>
+        <!-- <div class="transparentDiv formPack"></div> -->
     </div>
 
 

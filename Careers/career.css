@@ -11,17 +11,52 @@
 
 
 /* CAREEERS CONTENT */
-.careerContent{
-    height: 60vh;
+.careerContent{ 
+    height: 85vh;
     width: 100vw;
     /* background-color: #474949; */
-    display: grid;
-    grid-template-rows: 1fr 2fr 3fr;
     padding-top: 7em;
+    font-family: "BrandonGrotesque-Lit";
+    display: flex;
+    margin-bottom: 3em;
+    flex-direction: column;
+}
+
+.container{
+    
+    width: 80vw;
+    margin: auto;
+    /* background-color: crimson; */
+    font-size: 25px;
+    color: #474949;
+}
+
+.head{
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "BrandonGrotesque-Med";
+}
+
+.body{
+    height: 15vh;
+    font-size: 23px;
+    padding: 7px 12px;
+    text-align: center;
+}
+
+.head label{
+    font-size: 70px;
+    cursor: pointer;
 }
 
 
-/* CAREER DETAIL */
+
+
+
+
+/* CAREER DETAIL
 .careerDetail{
     display: flex;
     flex-direction: column;
@@ -46,4 +81,27 @@
 
 .careerSpecific > span{
     margin: 3px 0;
+} */
+
+
+a{
+    color: white;
 }
+#Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#EmailInput{
+    padding: 10px;
+  border-radius: 1.2em;
+  height: 1.5em;
+  width: 25vw;
+  text-indent: 1em;
+  outline: none;
+  background-color: white;
+  color: black;
+  border: 1px solid #888;
+}
+
